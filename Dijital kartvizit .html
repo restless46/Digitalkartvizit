@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beraat Kılıçaslan</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0070f3">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f4;
+      color: #333;
+      padding: 50px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 400px;
+      margin: auto;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    h1 { margin: 10px 0; }
+    p { margin: 5px 0; }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0070f3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    a:hover { background: #005bb5; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="profil.jpeg" alt="Profil Fotoğrafı">
+    <h1>Beraat Kılıçaslan</h1>
+    <p>Hidroplastik | Pazarlama & İhracat</p>
+    <p>Kahramanmaraş, Türkiye</p>
+	<p>Telefon:0530 898 9605</p>
+	<p>Mail: pazarlama@hidroplastik.com.tr</p>
+    <a href="mailto:pazarlama@hidroplastik.com.tr">Mail Gönder</a>
+<a href="https://wa.me/+905308989605">Whatsapp</a>
+  </div>
+</body>
+</html>
